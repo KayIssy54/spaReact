@@ -1,16 +1,69 @@
-# React + Vite
+Portfolio SPA (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DESCRIPTION
 
-Currently, two official plugins are available:
+This is a Single Page Application (SPA) built with React that allows users to view, add, and search through a list of portfolio projects. It demonstrates component-based architecture, state management, and dynamic rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+SETUP 
 
-## React Compiler
+1. Create a repository:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Link it to your vs code git remote add origin (paste the ssh key)
 
-## Expanding the ESLint configuration
+3. open the IDE (code .)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Navigate into the project folder:
+   cd repo name mine is spaReact
+
+5. Install dependencies:
+   npm install
+
+6. Run the development server:
+   npm run dev
+
+7. Open the app in your browser:
+   http://localhost:5176/
+
+
+
+ USAGE
+
+- View all projects on the landing page.
+- Use the search bar to filter projects by title.
+- Use the form to add a new project.
+- Newly added projects will appear instantly on the page.
+
+
+
+FEATURES
+
+- Add projects dynamically
+- Search and filter projects
+- Responsive user interface
+- Component-based architecture using React
+
+
+
+TECHNOLOGIES USED
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+
+
+LIMITATIONS
+
+- No backend integration (data resets on refresh)
+
+
+
+
+PROJECT STRUCTURE
+
+* components/ → Reusable UI components
+* data/ → Static project data
+* App.jsx → Main application logic
+* index.css → Global styles
+* App.css → Component styles
